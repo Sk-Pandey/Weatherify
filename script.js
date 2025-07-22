@@ -26,7 +26,7 @@ btn.addEventListener("click",()=>{
 })
  
 async function weather(Location) {
-    let api_url = `http://api.weatherapi.com/v1/current.json?key=861a4579321e4f819cf162557252107&q=${Location}&aqi=no`;
+    let api_url = `https://api.weatherapi.com/v1/current.json?key=861a4579321e4f819cf162557252107&q=${Location}`;
     let rawData = await fetch(api_url);
     let Data = await rawData.json();
     loc.innerText=Data.location.name;
@@ -36,3 +36,4 @@ async function weather(Location) {
     weatherInfo.classList.remove("hidden");
     Suggestions.classList.remove("hidden");
 }
+ 
