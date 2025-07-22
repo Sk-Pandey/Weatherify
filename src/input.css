@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.list{
+    @apply bg-slate-300 p-2 rounded-lg capitalize text-indigo-500;
+}
