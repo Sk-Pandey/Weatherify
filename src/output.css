@@ -223,6 +223,15 @@
   .h-20 {
     height: calc(var(--spacing) * 20);
   }
+  .h-\[20px\] {
+    height: 20px;
+  }
+  .h-\[64px\] {
+    height: 64px;
+  }
+  .h-\[80px\] {
+    height: 80px;
+  }
   .min-h-screen {
     min-height: 100vh;
   }
@@ -232,14 +241,26 @@
   .w-2\/3 {
     width: calc(2/3 * 100%);
   }
+  .w-\[28px\] {
+    width: 28px;
+  }
   .w-\[30\%\] {
     width: 30%;
   }
   .w-\[40\%\] {
     width: 40%;
   }
+  .w-\[48px\] {
+    width: 48px;
+  }
   .w-\[50\%\] {
     width: 50%;
+  }
+  .w-\[64px\] {
+    width: 64px;
+  }
+  .w-\[80px\] {
+    width: 80px;
   }
   .w-full {
     width: 100%;

@@ -81,6 +81,7 @@ function  printSuggestions(temp_c) {
     ul.innerHTML = "";
     let tipIndex = suggestionCondition(temp_c)
     let tips =weatherTips[tipIndex];
+    image.src=weatherImages[tipIndex];
     for(let tip of tips){
         let li = document.createElement("li");
         li.classList.add("list");
@@ -88,3 +89,5 @@ function  printSuggestions(temp_c) {
         ul.appendChild(li);
     } 
 }
+
+weatherImages =["first.png","second.png","third.png","four.png","https://img.icons8.com/?&id=118631&format=png&color=000000","https://img.icons8.com/?&id=mUbVdgtBucQv&format=png&color=000000"]
